@@ -1,4 +1,6 @@
 # Experiment-101 : Hello World Application on QNX: VMware Virtual Machine and Raspberry Pi
+Name:Yeshwanthkumar A
+reg no:212223060311
 
 ---
 
@@ -46,13 +48,19 @@ To create, build, and execute a simple “Hello World” program in QNX on two t
 
 ```c
 #include <stdio.h>
+#include<stdlib.h>
 
 int main(void) {
-    printf("Hello, World from QNX!\n");
-    return 0;
+  puts("Hello World!!!"); 
+	puts("Name: Yeshwanthkumar A");
+	puts("Register Number: 212223060311");
+	return EXIT_SUCCESS;
+
 }
 ```
 ## Output
+<img width="1438" height="251" alt="image" src="https://github.com/user-attachments/assets/523769bc-1a5d-4a63-a074-c5da0821a618" />
+
  
 ---
 
