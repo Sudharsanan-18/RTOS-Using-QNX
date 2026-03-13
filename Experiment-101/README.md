@@ -44,17 +44,21 @@ To create, build, and execute a simple “Hello World” program in QNX on two t
 
 ## Program (hello.c)
 
-```c
+```
 #include <stdio.h>
+#include<stdlib.h>
 
 int main(void) {
-    printf("Hello, World from QNX!\n");
-    return 0;
+  puts("Hello World!!!"); 
+	puts("Name: Yeshwanthkumar A");
+	puts("Register Number: 212223060311");
+	return EXIT_SUCCESS;
 }
 ```
 ## Output
  
----
+![WhatsApp Image 2026-03-13 at 11 13 02 AM](https://github.com/user-attachments/assets/98350454-5091-43d7-ab89-7ab11f4bd57f)
+
 
 ## Result
 Thus, a simple Hello World application was successfully developed, compiled, and executed on the QNX operating system using both VMware virtual machine and Raspberry Pi hardware targets.
